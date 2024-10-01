@@ -7,10 +7,13 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import MyProfile from './pages/MyProfile'
 import MyAppointments from './pages/MyAppointments'
+import NavBar from './components/NavBar'
+import Doctors from './pages/Doctors'
 
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%'>
+      <NavBar />
       <Routes>
         <Route path='/' element={<Home />} /> {/*Home page*/}
         <Route path='/doctors' element={<Doctors />} />
@@ -19,7 +22,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/my-profile' element={<MyProfile />} />
-        <Route path='/my-appointment/:' element={<MyAppointments />} />
+        <Route path='/my-appointment' element={<MyAppointments />} />
         <Route path='/appointment/:docId' element={<Appointment />} />
       </Routes>
     </div>
