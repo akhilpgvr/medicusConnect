@@ -85,6 +85,7 @@ export const specialityData = [
     },
 ]
 
+// notused
 export const doctors = [
     {
         _id: 'doc1',
