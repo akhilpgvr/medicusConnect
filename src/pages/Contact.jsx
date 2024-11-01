@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-8">
-            <h1 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h1>
+            <h1 className="text-4xl font-semibold text-center text-teal-600 mb-6">Contact Us</h1>
 
             {/* Contact Details Section */}
             <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-6 mb-8">
@@ -69,14 +69,13 @@ const Contact = () => {
                         <textarea
                             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
                             rows="4"
-                            placeholder="Write your message here"
-                        ></textarea>
+                            placeholder="Write your message here">
+                        </textarea>
                     </div>
 
                     <button
                         type="submit"
-                        className="w-full bg-teal-500 text-white font-semibold py-2 rounded-lg hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                    >
+                        className="w-full bg-teal-500 text-white font-semibold py-2 rounded-lg hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500">
                         Submit
                     </button>
                 </form>
