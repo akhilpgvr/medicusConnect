@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { AppContext } from '../context/AppContext';
+import doc_profile from '../assets/doc_profile.png';
 
 const Doctors = () => {
 
@@ -42,7 +43,7 @@ useEffect(()=> {
           {
             filterDoc.map((item, index)=>(
               <div onClick={()=> navigate(`/appointment/${item._id}`)} className='border border-blue-200 rounded-x1 overflow-hidden cursor-pointer'>
-                <img className='bg-blue-50' src={item.image} alt="" />
+                <img  src={doc_profile} alt="" />
                 <div className='p-4'>
                   <div className='flex items-center gap-2 text-sm text-center text-green-500'>
                     <p className='w-2 h-2 bg-green-500 rounded-full'></p><p>Available</p>
