@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
 import { assets } from '../assets/assets'
-import doc_profile from '../assets/doc_profile.png';
 
 const Appointment = () => {
 
@@ -74,7 +73,7 @@ const Appointment = () => {
       <div className='flex flex-col sm:flex-row gap-4'>
         
         <div>
-          <img className='w-full sm:max-w-40 rounded-lg' src={doc_profile} alt="" />
+          <img className='w-full sm:max-w-40 rounded-lg' src={assets.doc_profile} alt="" />
         </div>
 
         <div className='flex-1 border border-gray-400 rounded-lg p-8 py-7 bg-white mx-2 sm:mx-0 mt-[-80px] sm:mt-0'>
