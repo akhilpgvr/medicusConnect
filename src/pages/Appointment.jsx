@@ -97,7 +97,7 @@ const Appointment = () => {
           {
             daysArray.length && daysArray.map((item, index)=> (
               <div onClick={()=>setSlotIndex(index)} className= {`rounded-full w-32 h-14 flex items-center justify-center cursor-pointer ${slotIndex === index  ? 'bg-emerald-500 text-white border border-gray-200 p-4' : 'border border-gray-200'}`} key={index}>
-                <p>{daysArray[index]}</p><p>  -  </p>
+                <p>{item}</p><p>  -  </p>
                 <p>{datesArray[index]}</p>
               </div>
             ))
