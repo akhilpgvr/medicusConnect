@@ -7,9 +7,9 @@ const About = () => {
                 <h1 className="text-4xl font-semibold text-center text-teal-600 mb-6">About Us</h1>
                 
                 <section className="mb-8">
-                    <h2 className="text-2xl font-semibold text-gray-800 mb-4">Welcome to [App Name]</h2>
+                    <h2 className="text-2xl font-semibold text-gray-800 mb-4">Welcome to Medicus Connect</h2>
                     <p className="text-gray-600 leading-relaxed">
-                        Developed by <strong>Aps Studio</strong>, [App Name] is a cutting-edge doctor booking platform designed to make healthcare more accessible and efficient for everyone. Our app leverages the power of AI to connect patients with the right healthcare providers seamlessly, allowing for easy appointment scheduling, automated recommendations, and personalized care.
+                        Developed by <strong>Aps Studio</strong>, Medicus Connect is a cutting-edge doctor booking platform designed to make healthcare more accessible and efficient for everyone. Our app leverages the power of AI to connect patients with the right healthcare providers seamlessly, allowing for easy appointment scheduling, automated recommendations, and personalized care.
                     </p>
                 </section>
 
@@ -33,7 +33,7 @@ const About = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">How It Works</h2>
                     <p className="text-gray-600 leading-relaxed">
-                        [App Name] simplifies the process of finding and booking a doctor. Our AI-powered engine gathers relevant data based on your medical needs and helps you locate the best available doctors nearby. Once a doctor is selected, scheduling is as easy as selecting a time slot. We handle the rest with appointment reminders, status updates, and even rescheduling options when needed.
+                        Medicus Connect simplifies the process of finding and booking a doctor. Our AI-powered engine gathers relevant data based on your medical needs and helps you locate the best available doctors nearby. Once a doctor is selected, scheduling is as easy as selecting a time slot. We handle the rest with appointment reminders, status updates, and even rescheduling options when needed.
                     </p>
                 </section>
 
