@@ -108,10 +108,10 @@ const Appointment = () => {
         {/* <div onClick={()=>setSlotIndex(index)} className= {`rounded-full w-32 h-14 flex items-center justify-center cursor-pointer ${slotIndex === index  ? 'bg-emerald-500 text-white border border-gray-200 p-4' : 'border border-gray-200'}`}> */}
           <div className='flex gap-10  py-10'>
             <div onClick={()=> setSessionIndex(0)} className={`p-4 w-32 rounded-full cursor-pointer ${sessionIndex === 0 ? 'bg-cyan-500 text-white border border-gray-200' : 'border border-gray-200'}`}>
-              <p>ForeNoon</p>
+              <p>Forenoon</p>
             </div>
             <div onClick={()=> setSessionIndex(1)} className={`p-4 w-32 rounded-full cursor-pointer ${sessionIndex === 1 ? 'bg-cyan-500 text-white border border-gray-200' : 'border border-gray-200'}`}>
-              <p>AferNoon</p>
+              <p>AFternoon</p>
             </div>
         </div>
       </div>
