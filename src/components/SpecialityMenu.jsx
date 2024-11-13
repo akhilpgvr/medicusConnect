@@ -1,8 +1,11 @@
 import React from 'react'
 import {specialityData} from '../assets/assets'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const SpecialityMenu = () => {
+
+  const navigate = useNavigate()
+
   return (
     
     <div>
@@ -34,7 +37,7 @@ const SpecialityMenu = () => {
             <textarea id="comment" rows="4" class="w-full px-0 text-sm text-black bg-white border border-gray-300 rounded-lg focus:ring-0 placeholder-gray-500" placeholder="Write your symptoms here..." required></textarea>
           </div>
           <div class="flex items-center justify-between px-3 py-2 border-t border-gray-300">
-            <button type="submit" class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-green-600 rounded-lg focus:ring-4 focus:ring-green-200 hover:bg-green-700">
+            <button onClick={()=> navigate('/doctors/Dermatologist')} type="submit" class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-green-600 rounded-lg focus:ring-4 focus:ring-green-200 hover:bg-green-700">
               Search
             </button>
           </div>
